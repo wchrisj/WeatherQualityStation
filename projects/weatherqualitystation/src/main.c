@@ -1,6 +1,12 @@
 /******************************************************************************
  * File           : Main program
  *****************************************************************************/
+ 
+ /**
+ * @file main.c
+ * Main file
+ */
+ 
 #include "stm32f0xx.h"
  
 void delay(const int d);
@@ -56,7 +62,7 @@ int main(void)
 // 0x080000E6 DD01      BLE      0x080000EC     1
 // 0x080000E8 1E40      SUBS     r0,r0,#1       1
 // 0x080000EA E7FA      B        0x080000E2     3
-
+/// Delay
 #pragma push
 #pragma O3
 void delay(const int d)

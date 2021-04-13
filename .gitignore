@@ -9,6 +9,9 @@
 *.uvgui.*
 *.uvguix.*
 
+# Doxygen
+Doxygen_Docu/
+
 # Listing files
 *.cod
 *.htm
